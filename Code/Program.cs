@@ -1,6 +1,6 @@
 ﻿using System;
 
-          class Program{
+          public class Program{
                     public static string Inputname(){
                               Console.Write("Input Name:");
                               return Console.ReadLine();
@@ -72,7 +72,7 @@
                               return score <55 && score >= 50;
                     }
 
-                    static void Main(string[] args){
+                    public static void Main(string[] args){
                               string name = Inputname();
                               string scoreString = Console.ReadLine();
                               int score = int.Parse(scoreString);
